@@ -1,5 +1,5 @@
 /**
- * math-utils - JavaScript Mathematics Library
+ * math-util - JavaScript Mathematics Library
  * Author: nguenbaohua
  * Description: A lightweight JavaScript library providing basic mathematical operations, statistics, geometry, number theory, matrix operations, and unit conversions.
  * License: MIT
