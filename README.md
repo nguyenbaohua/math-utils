@@ -171,19 +171,13 @@ const { sum, mean } = require('math-utils');
 - `celsiusToFahrenheit(celsius)` - Temperature conversion
 - `fahrenheitToCelsius(fahrenheit)` - Temperature conversion
 
-## 🧪 Testing
-
-```bash
-npm test
-```
-
 ## 🤝 Contributing
 
 We love contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to get started.
 
 ## 📄 License
 
-MIT © [Your Name]
+MIT
 
 ## 🌟 Support
 
