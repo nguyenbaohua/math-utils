@@ -1,5 +1,5 @@
 {
-  "name": "math-util",
+  "name": "math-essential",
   "version": "0.0.1",
   "description": "A lightweight JavaScript math utilities library for basic mathematical operations",
   "main": "src/index.js",
@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nguenbaohua/math-util.git"
+    "url": "https://github.com/nguenbaohua/math-essential.git"
   },
   "bugs": {
-    "url": "https://github.com/nguenbaohua/math-util/issues"
+    "url": "https://github.com/nguenbaohua/math-essential/issues"
   },
-  "homepage": "https://github.com/nguenbaohua/math-util#readme",
+  "homepage": "https://github.com/nguenbaohua/math-essential#readme",
   "devDependencies": {
     "jest": "^29.0.0"
   },

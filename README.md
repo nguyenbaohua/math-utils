@@ -1,14 +1,14 @@
-# 🧮 math-util
+# 🧮 math-essential
 
 **The JavaScript math library you've been waiting for.**
 
-[![npm version](https://badge.fury.io/js/math-util.svg)](https://badge.fury.io/js/math-util)
-[![Downloads](https://img.shields.io/npm/dm/math-util.svg)](https://www.npmjs.com/package/math-util)
+[![npm version](https://badge.fury.io/js/math-essential.svg)](https://badge.fury.io/js/math-essential)
+[![Downloads](https://img.shields.io/npm/dm/math-essential.svg)](https://www.npmjs.com/package/math-essential)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Simple, fast, and powerful mathematical utilities for JavaScript developers. Zero dependencies, TypeScript ready.
 
-## ✨ Why math-util?
+## ✨ Why math-essential?
 
 - 🚀 **Blazing Fast** - Optimized for performance
 - 🪶 **Lightweight** - Zero dependencies, minimal bundle size
@@ -20,11 +20,11 @@
 ## 🚀 Quick Start
 
 ```bash
-npm install math-util
+npm install math-essential
 ```
 
 ```javascript
-const { sum, mean, isPrime } = require('math-util');
+const { sum, mean, isPrime } = require('math-essential');
 
 // Basic arithmetic
 sum(1, 2, 3, 4, 5);        // 15
@@ -42,7 +42,7 @@ isPrime(17);               // true
 
 ### 🧮 Basic Math
 ```javascript
-const { sum, multiply, power, round } = require('math-util');
+const { sum, multiply, power, round } = require('math-essential');
 
 sum(1, 2, 3, 4);              // 10
 multiply(2, 3, 4);            // 24
@@ -52,7 +52,7 @@ round(3.14159, 2);            // 3.14
 
 ### 📊 Statistics
 ```javascript
-const { mean, median, mode, standardDeviation } = require('math-util');
+const { mean, median, mode, standardDeviation } = require('math-essential');
 
 const data = [1, 2, 2, 3, 4, 4, 4, 5];
 
@@ -64,7 +64,7 @@ standardDeviation(data);      // 1.356
 
 ### 📐 Geometry
 ```javascript
-const { circleArea, distance, triangleArea } = require('math-util');
+const { circleArea, distance, triangleArea } = require('math-essential');
 
 circleArea(5);                // 78.54
 distance(0, 0, 3, 4);         // 5
@@ -73,7 +73,7 @@ triangleArea(10, 8);          // 40
 
 ### 🔢 Number Theory
 ```javascript
-const { isPrime, factorial, gcd, fibonacci } = require('math-util');
+const { isPrime, factorial, gcd, fibonacci } = require('math-essential');
 
 isPrime(17);                  // true
 factorial(5);                 // 120
@@ -83,7 +83,7 @@ fibonacci(10);                // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
 ### 🔄 Unit Conversion
 ```javascript
-const { degreesToRadians, celsiusToFahrenheit } = require('math-util');
+const { degreesToRadians, celsiusToFahrenheit } = require('math-essential');
 
 degreesToRadians(90);         // 1.5708
 celsiusToFahrenheit(25);      // 77
@@ -93,7 +93,7 @@ celsiusToFahrenheit(25);      // 77
 
 ### Calculate compound interest
 ```javascript
-const { power, round } = require('math-util');
+const { power, round } = require('math-essential');
 
 function compoundInterest(principal, rate, time) {
   return round(principal * power(1 + rate/100, time), 2);
@@ -104,7 +104,7 @@ compoundInterest(1000, 5, 10); // 1628.89
 
 ### Analyze test scores
 ```javascript
-const { mean, median, standardDeviation } = require('math-util');
+const { mean, median, standardDeviation } = require('math-essential');
 
 const scores = [85, 92, 78, 96, 88, 91, 87, 93];
 
@@ -115,7 +115,7 @@ console.log(`Std Dev: ${standardDeviation(scores)}`); // 5.77
 
 ### Generate Fibonacci sequence for UI animations
 ```javascript
-const { fibonacci } = require('math-util');
+const { fibonacci } = require('math-essential');
 
 const delays = fibonacci(8).map(n => n * 100);
 // [0, 100, 100, 200, 300, 500, 800, 1300] ms delays
@@ -127,10 +127,10 @@ Import only what you need:
 
 ```javascript
 // ESM
-import { sum, mean } from 'math-util';
+import { sum, mean } from 'math-essential';
 
 // CommonJS
-const { sum, mean } = require('math-util');
+const { sum, mean } = require('math-essential');
 
 // Webpack will automatically tree-shake unused functions
 ```

@@ -1,5 +1,5 @@
 /**
- * math-util - JavaScript Mathematics Library
+ * math-essential - JavaScript Mathematics Library
  * Author: nguenbaohua
  * Description: A lightweight JavaScript library providing basic mathematical operations, statistics, geometry, number theory, matrix operations, and unit conversions.
  * License: MIT
